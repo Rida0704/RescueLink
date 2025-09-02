@@ -78,32 +78,17 @@ function App() {
       <div className="mt-6 px-4 w-full flex justify-center my-8">
   <div className="max-w-2xl w-full bg-white/5 backdrop-blur-lg rounded-2xl p-6 shadow-md text-center">
     <p className="text-xl md:text-2xl font-bold mb-2">
-      Created By -{" "}
-      <a
-        href="https://github.com/AbhinavXJ"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-400 hover:underline"
-        aria-label="AbhinavXJ"
-      >
-        Abhinav Jha
-      </a>
+      DisasterNet Emergency Communication System
     </p>
 
     <p className="text-base md:text-lg text-gray-300 mb-4">
-      Frontend part of the <strong>DisasterNet</strong> project — made to
+      An offline-first, peer-to-peer emergency communication system — designed to
       communicate in places <span className="font-semibold text-white">without the NEED OF INTERNET</span>!
     </p>
 
-    <a
-      href="https://github.com/AbhinavXJ/DisasterNet"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block text-blue-400 font-medium hover:underline"
-      aria-label="DisasterNet GitHub Repository"
-    >
-      View full project (frontend + backend) on GitHub →
-    </a>
+    <p className="text-sm text-gray-400">
+      Emergency communication network for disaster-prone areas
+    </p>
   </div>
 </div>
 
