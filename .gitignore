@@ -1,14 +1,32 @@
 # Go
-
+*.exe
+*.msi
+go.sum
 
 # Node (Vite)
 frontend/node_modules/
 frontend/dist/
 
-# IDEs
+# Build artifacts
+*.webm
+*.mp4
+*.avi
+*.mov
+logs.txt
 *.log
+
+# IDEs
 .vscode/
 .idea/
 
 # Env files
 **/.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
